@@ -1,24 +1,29 @@
 <html>
   <head>
     <title>Dog Party</title>
-    <link href="styles1.css" type="text/css" rel="stylesheet" />
-    <link href="styles2.css" type="text/css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet">  </head>
+<!--     <link href="styles1.css" type="text/css" rel="stylesheet" />
+ -->    <link href="styles2.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
 
   <body>
     <nav class="topnav">
-      <a href="factsfromdog">Facts From Dog</a>
-      <a href="whatisdogs">What Is Dogs</a>
-      <a href="#howtodog">How To Dog</a>
       <img src="images/dog-icon.svg" class="logo" alt="dog logo">
+      <ul>
+        <li><a href="#howtodog">How To Dog</a></li>
+        <li><a href="whatisdogs">What Is Dogs</a></li>
+        <li><a href="factsfromdog">Facts From Dog</a></li>
+      </ul>
     </nav>
 
     <header class="headline">
       <div class="headline-section">
         <h1>A Site About <span class="some-dogs">Some Dogs</span></h1>
-          <img src="images/dog1-sq.jpg" class="dogs" alt="orange dog">
+          <img src="images/dog1-sq.jpg" class="main-dog" alt="orange dog">
           <form class="dog-form">
-            <label class="name-">Name</label>
+            <label>Name</label>
             <input type="text" class="text-box"/>
             <input type="submit" value="Name This Dog" class="name-button"/>
           </form>
@@ -26,7 +31,7 @@
     </header>
 
     <main>
-      <section class="column1of3">
+      <section class="columns">
         <h2>How To Dog</h2>
         <img src="images/dog2-sq.jpg" class="dogs" alt="happy dog">
         <p>Dat tungg tho pupperino length
@@ -38,10 +43,10 @@
        neighborhood pupper borkf smol
        corgo long water shoob stop it fren
        boofers pupper heck ruff.</p>
-        <input type="submit" value="How" class="how-button" />
+        <input type="submit" value="How" class="bottom-buttons" />
       </section>
 
-      <section class="column2of3">
+      <section class="columns">
         <h2>What Is Dogs</h2>
         <img src="images/dog3-sq.jpg" class="dogs" alt="furry dog">
         <p>Long doggo smol borking doggo
@@ -54,10 +59,10 @@
        adorable doggo very hand that feed
        shibe. Extremely cuuuuuute corgo
        waggy wags stop it fren.</p>
-        <input type="submit" value="What" class="what-button"/>
+        <input type="submit" value="What" class="bottom-buttons"/>
       </section>
 
-      <section class="column3of3">
+      <section class="columns" id="last-column">
         <h2>Facts From Dog</h2>
         <img src="images/dog4-sq.jpg" class="dogs" alt="cute dog">
         <p>Most angery pupper I have ever
@@ -68,16 +73,19 @@
        water shoob dat tungg tho very
        hand that feed shibe long bois he
        made many woofs.</p>
-        <input type="submit" value="Facts" class="facts-button"/>
+        <input type="submit" value="Facts" class="bottom-buttons"/>
       </section>
     </main>
 
     <footer>
       <p>Learn About Dogs Online</p>
+      <div class= "social-images">
       <img src="images/twitter.svg" class="social-channels"/>
       <img src="images/instagram.svg" class="social-channels"/>
       <img src="images/facebook.svg" class="social-channels"/>
       <img src="images/linkedin.svg" class="social-channels"/>
+    </div>
     </footer>
   </body>
+  <script type="text/javascript" src= "main.js"></script>
 </html>

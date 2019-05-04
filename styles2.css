@@ -1,0 +1,172 @@
+* {
+  font-family: 'Roboto Slab', serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+h1 {
+  font-weight: 300;
+  float: right;
+  margin-top: 70px;
+  width: 41%;
+}
+
+nav {
+	width: 17%;
+  min-width: 100px;
+	height: 1305px;
+	background-color: #9A969C;
+	position: absolute;
+  border: #3E3544 2px solid
+}
+
+.topnav a {
+	color: black;
+  font-weight: bold;
+  position: relative;
+  text-decoration: none;
+}
+
+.logo {
+  width: 85%;
+  margin-left: 8%;
+  margin-top: 5%;	
+  position: relative
+}
+
+ul {
+    margin-right: 5%;
+    margin-top: 25%;
+    padding-left: 10%;
+}
+
+li {
+  font-size: 18px;
+  display: block;
+  padding: 15px;
+  text-align: left;
+}
+
+header {
+	width: 83%;
+	height: 48%;
+	background-color: #3E3544;
+	float: right;
+/*	position: absolute;
+*/  left: 17%;
+  margin-bottom: 20px;
+}
+
+.headline-section {
+  width: 880px;
+/*  display: inline;
+*/  color: #ffffff;
+/*  margin: auto;
+*/  position: relative;
+}
+
+img.main-dog {
+  height: 90%;
+  border-radius: 50%;
+  border: 5px solid #9A969C;
+  margin: 10px 26px;
+}
+
+.some-dogs {
+  font-weight: 700;
+}
+
+.dog-form {
+  float: right;
+  margin-top: -161px;
+  margin-right: 23px;}
+
+label {
+  text-align: left;
+  width: 55px;
+  display: block;
+}
+
+.text-box {
+  height: 40px;
+  width: 300px;
+  margin: auto;
+  display: block;
+}
+
+.name-button {
+  background-color: #9A969C;
+  height: 40px;
+  width: 300px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 10px;
+  display: block;
+}
+
+.columns {
+  margin: 1% 10% 1% 23%;
+  float: right;
+  border-bottom: black 1px solid;
+  padding-bottom: 30px;
+  margin-top: -5px;
+}
+
+/*.columns p {
+  display: inline;
+}*/
+
+.bottom-buttons {
+  width: 20%;
+  background-color: #3E3544;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  float: right;
+}
+
+img.dogs {
+  height: 15%;
+  border-radius: 50%;
+  border: 5px solid #9A969C;
+  margin-right: 20px;
+  float: left;
+}
+
+#last-column {
+  border: none;
+}
+
+footer {
+  text-align: right;
+  color: #ffffff;
+  height: 150px;
+  width: 83%;
+  float: right;
+  background-color: #3E3544;
+/*  position: absolute;
+*/  bottom: -57%;
+}
+
+img.social-channels {
+  padding: 8px;
+  height: 50px;
+}
+
+.social-images {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  margin: -50px 25px 10px 0px;
+}
+
+footer p {
+  font-weight: bold;
+  margin-right: 15%;
+  font-size: 20px;
+}
