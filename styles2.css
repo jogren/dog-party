@@ -1,4 +1,8 @@
 * {
+/*  border: red 1px solid;
+*/}
+
+* {
   font-family: 'Roboto Slab', serif;
   box-sizing: border-box;
 }
@@ -7,35 +11,27 @@ body {
   margin: 0px;
 }
 
-h1 {
-  font-weight: 300;
-  float: right;
-  margin-top: 70px;
-  width: 41%;
-}
+/*NAVIGATION BAR*/
 
 nav {
-	width: 17%;
+  width: 17%;
   min-width: 100px;
-	height: 1305px;
-	background-color: #9A969C;
-	position: absolute;
-  border: #3E3544 2px solid
-}
+  height: 163%;  
+  background-color: #9A969C;
+  position: absolute;
+  border-right: #3E3544 2px solid;}
 
 .topnav a {
-	color: black;
-  font-weight: bold;
-  position: relative;
+  color: black;
+  font-weight: 700;
   text-decoration: none;
 }
 
 .logo {
   width: 85%;
   margin-left: 8%;
-  margin-top: 5%;	
-  position: relative
-}
+  margin-top: 5%; 
+  }
 
 ul {
     margin-right: 5%;
@@ -50,29 +46,35 @@ li {
   text-align: left;
 }
 
+/*HEADER*/
+
 header {
-	width: 83%;
-	height: 48%;
-	background-color: #3E3544;
-	float: right;
-/*	position: absolute;
-*/  left: 17%;
-  margin-bottom: 20px;
+  width: 83%;
+  height: 48%;
+  background-color: #3E3544;
+  float: right;
+  left: 17%;
+  margin-bottom: 10px;
 }
 
 .headline-section {
   width: 880px;
-/*  display: inline;
-*/  color: #ffffff;
-/*  margin: auto;
-*/  position: relative;
-}
+  color: #ffffff;
+  }
 
 img.main-dog {
   height: 90%;
   border-radius: 50%;
   border: 5px solid #9A969C;
-  margin: 10px 26px;
+  margin: 2% 9%;
+}
+
+h1 {
+  font-weight: 100;
+  float: right;
+  margin-top: 11%;
+  margin-right: 1.75%;
+  width: 41%;
 }
 
 .some-dogs {
@@ -81,18 +83,19 @@ img.main-dog {
 
 .dog-form {
   float: right;
-  margin-top: -161px;
-  margin-right: 23px;}
+  margin-top: -23%;
+  margin-right: 2.5%;}
 
 label {
   text-align: left;
   width: 55px;
   display: block;
+  margin-bottom: 5px;
 }
 
 .text-box {
   height: 40px;
-  width: 300px;
+  width: 350px;
   margin: auto;
   display: block;
 }
@@ -100,13 +103,15 @@ label {
 .name-button {
   background-color: #9A969C;
   height: 40px;
-  width: 300px;
+  width: 350px;
   font-size: 16px;
   font-weight: bold;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 15px;
   display: block;
 }
+
+/*COLUMNS*/
 
 .columns {
   margin: 1% 10% 1% 23%;
@@ -115,10 +120,6 @@ label {
   padding-bottom: 30px;
   margin-top: -5px;
 }
-
-/*.columns p {
-  display: inline;
-}*/
 
 .bottom-buttons {
   width: 20%;
@@ -142,6 +143,8 @@ img.dogs {
   border: none;
 }
 
+/*FOOTER*/
+
 footer {
   text-align: right;
   color: #ffffff;
@@ -149,8 +152,7 @@ footer {
   width: 83%;
   float: right;
   background-color: #3E3544;
-/*  position: absolute;
-*/  bottom: -57%;
+  bottom: -57%;
 }
 
 img.social-channels {
@@ -158,7 +160,7 @@ img.social-channels {
   height: 50px;
 }
 
-.social-images {
+.social-images-container {
   display: inline-block;
   width: 120px;
   height: 120px;
@@ -167,6 +169,60 @@ img.social-channels {
 
 footer p {
   font-weight: bold;
-  margin-right: 15%;
+  margin-right: 150px;
   font-size: 20px;
 }
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1045px) {
+  img.main-dog {
+    height: 40%;
+  }
+  h1 {
+    width: 100%;
+    font-size: 26px;
+  }
+  .dog-form {
+    margin-top: -3px;
+    margin-right: 13px;
+  }
+  .text-box {
+    width: 275px;
+  }
+  .name-button {
+    width: 275px;
+  }
+  .headline-section {
+  width: 300px;
+  text-align: center;
+  color: #ffffff;
+  margin: auto;
+  }
+}
+
+@media (max-width: 995px) {
+  .topnav a {
+    font-size: 10px;
+    padding: 6px;
+  }
+  li {
+    text-align: center;
+  }
+  ul {
+    padding-left: 0%;
+  }
+}
+
+@media (max-width: 760px) {
+  img.dogs {
+    height: 10%;
+  }
+  .columns p {
+    font-size: 10px;
+  }
+  .columns h2 {
+    font-size: 18px;
+  }
+}
+

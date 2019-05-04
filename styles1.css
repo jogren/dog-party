@@ -1,3 +1,5 @@
+/*WHOLE PAGE*/
+
 /** {
   border: red 1px solid;
 }*/
@@ -7,9 +9,7 @@
   box-sizing: border-box;
 }
 
-h1 {
-  font-weight: normal;
-}
+/*NAVIGATION BAR*/
 
 .topnav {
   width: 100%;
@@ -23,12 +23,12 @@ h1 {
   color: #000000;
   padding: 14px 16px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 18px;
 }
 
 .logo {
-	height: 40px;
+  height: 40px;
 }
 
 ul {
@@ -39,7 +39,9 @@ li {
   display: inline;
 }
 
-.headline {
+/*HEADER*/
+
+header {
   width: 100%;
   height: 500px;
   background-image: url("images/park.jpg");
@@ -55,16 +57,19 @@ li {
   margin: auto;
 }
 
-img.main-dog {
-    height: 200px;
-    border-radius: 50%;
-    border: 5px solid #048eaa;
-    margin: auto;
+h1 {
+  font-weight: 300;
 }
 
 .some-dogs {
   font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
+  font-weight: 800;
+}
+
+img.main-dog {
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #048eaa;
 }
 
 .dog-form {
@@ -96,6 +101,8 @@ label {
   display: block;
 }
 
+/*COLUMNS*/
+
 .columns {
   float:left;
   width: 31.3%;
@@ -105,11 +112,11 @@ label {
   text-align: center;
 }
 
- .columns h2 {
+h2.columns {
   font-size: 24px
 }
 
-.columns p {
+p.columns {
   text-align: left;
 }
 
@@ -131,6 +138,8 @@ img.dogs {
   margin: auto;
 }
 
+/*FOOTER*/
+
 footer {
   text-align: center;
   color: #ffffff;
@@ -146,89 +155,64 @@ img.social-channels {
   height: 40px;
 }
 
+/*TOOLTIPS ATTEMPTS*/
+
+/*.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+  .tooltip #tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip #tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}*/
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 775px) {
+  .columns p {
+  font-size: 13.7px;
+  }
+}
+
 @media (max-width: 620px) {
   .topnav a {
     font-size: 14px;
     padding: 7px;
   }
   img.dogs {
-    height: 120px;
+    height: 150px;
   }
-   .columns h2 {
-  font-size: 19px
+  .columns h2 {
+    font-size: 19px
+  }
 }
-/*  h2.columns {
-  font-size: 20px
-  }*/
-
-/*.column1of3 {
-  float:left;
-  width: 31.3%;
-  height: 32em;
-  margin: 1%;
-  position: relative;
-  text-align: center;
-}
-
-.column1of3 p {
-  text-align: left;
-}
-*/
-/*.how-button {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-  background-color: #048eaa;
-  padding: 12px;
-  font-size: 14px;
-  color: #ffffff;
-}*/
-
-/*.column2of3 {
-  float:left;
-  width: 31.3%;
-  height: 32em;
-  margin: 1%;
-  position: relative;
-  text-align: center;
-}
-
-.column2of3 p {
-  text-align: left;
-}*/
-
-/*.what-button {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-  background-color: #048eaa;
-  padding: 12px;
-  font-size: 14px; 
-  color: #ffffff; 
-}*/
-
-/*.column3of3 {
-  float:left;
-  width: 31.3%;
-  height: 32em;
-  margin: 1%;
-  position: relative;
-  text-align: center;
-}
-
-.column3of3 p {
-  text-align: left;
-}*/
-
-/*.facts-button {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-  background-color: #048eaa;
-  padding: 12px;
-  font-size: 14px;
-  color: #ffffff;
-}*/

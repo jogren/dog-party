@@ -8,20 +8,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
+<!-- COMMENTED OUT MY TOOLTIP ATTEMPTS BELOW - SEE CSS STYLESHEET 1-->
+
   <body>
     <nav class="topnav">
       <img src="images/dog-icon.svg" class="logo" alt="dog logo">
       <ul>
-        <li><a href="#howtodog">How To Dog</a></li>
-        <li><a href="whatisdogs">What Is Dogs</a></li>
+        <!--<div class="tooltip"> -->
+        <li><a href="#howtodog">How To Dog 
+          <!-- <span id="tooltiptext">Learn how to be a dog.</span> -->
+        </a></li>
+        <!--</div>-->
+        <li><a href="whatisdogs">What Is dogs</a></li>
         <li><a href="factsfromdog">Facts From Dog</a></li>
       </ul>
     </nav>
 
-    <header class="headline">
+    <header>
       <div class="headline-section">
         <h1>A Site About <span class="some-dogs">Some Dogs</span></h1>
-          <img src="images/dog1-sq.jpg" class="main-dog" alt="orange dog">
+        <img src="images/dog1-sq.jpg" class="main-dog" alt="orange dog">
           <form class="dog-form">
             <label>Name</label>
             <input type="text" class="text-box"/>
@@ -34,7 +40,7 @@
       <section class="columns">
         <h2>How To Dog</h2>
         <img src="images/dog2-sq.jpg" class="dogs" alt="happy dog">
-        <p>Dat tungg tho pupperino length
+        <p id="how-paragraph">Dat tungg tho pupperino length
        boy. borkdrive aqua doggo.
        Maximum borkdrive long doggo
        extremely cuuuuuute you are doing
@@ -43,13 +49,13 @@
        neighborhood pupper borkf smol
        corgo long water shoob stop it fren
        boofers pupper heck ruff.</p>
-        <input type="submit" value="How" class="bottom-buttons" />
+        <input onclick="hideContent1()" type="submit" value="How" class="bottom-buttons" />
       </section>
 
       <section class="columns">
         <h2>What Is Dogs</h2>
         <img src="images/dog3-sq.jpg" class="dogs" alt="furry dog">
-        <p>Long doggo smol borking doggo
+        <p id="what-paragraph">Long doggo smol borking doggo
        with a long snoot for pats
        pupperino h*ck heckin angery
        woofer shoober aqua doggo heck
@@ -59,13 +65,13 @@
        adorable doggo very hand that feed
        shibe. Extremely cuuuuuute corgo
        waggy wags stop it fren.</p>
-        <input type="submit" value="What" class="bottom-buttons"/>
+        <input onclick="hideContent2()"type="submit" value="What" class="bottom-buttons"/>
       </section>
 
       <section class="columns" id="last-column">
         <h2>Facts From Dog</h2>
         <img src="images/dog4-sq.jpg" class="dogs" alt="cute dog">
-        <p>Most angery pupper I have ever
+        <p id="facts-paragraph">Most angery pupper I have ever
        seen such treat heck, dat tungg tho.
        You are doin me a concern shibe
        such treat ruff heck, stop it fren ur
@@ -73,18 +79,18 @@
        water shoob dat tungg tho very
        hand that feed shibe long bois he
        made many woofs.</p>
-        <input type="submit" value="Facts" class="bottom-buttons"/>
+        <input onclick="hideContent3()"type="submit" value="Facts" class="bottom-buttons"/>
       </section>
     </main>
 
     <footer>
       <p>Learn About Dogs Online</p>
-      <div class= "social-images">
-      <img src="images/twitter.svg" class="social-channels"/>
-      <img src="images/instagram.svg" class="social-channels"/>
-      <img src="images/facebook.svg" class="social-channels"/>
-      <img src="images/linkedin.svg" class="social-channels"/>
-    </div>
+      <div class= "social-images-container">
+        <img src="images/twitter.svg" class="social-channels"/>
+        <img src="images/instagram.svg" class="social-channels"/>
+        <img src="images/facebook.svg" class="social-channels"/>
+        <img src="images/linkedin.svg" class="social-channels"/>
+      </div>
     </footer>
   </body>
   <script type="text/javascript" src= "main.js"></script>
