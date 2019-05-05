@@ -2,7 +2,7 @@
 
 ###### Dog Party is my first project at Turing and was assigned to build a strong foundation in HTML and CSS. I was provided with 2 Comps and instructed to re-create them with one HTML structure plus two CSS stylesheets. 
 
-###### Through this project I was also able to practice and experiment with JavaScript along with other topics, including Media Queries and style guide best practices for HTML, CSS, and JavaScript.
+###### Through this project I was also able to practice and experiment with JavaScript along with other topics, including Media Queries and style guide best practices for HTML, CSS, and JavaScript. Note that this page has JavaScript functionality as users may enter a dog name into the text field, and after pressing the Name This Dog button, the header will read the chosen name after "A Site About..." User may also click the bottom buttons to hide the paragraph content. Finally, with the implementation of media queries both sites are styled for desktop or mobile.
 
 ## Below, please find screen grabs of the comps:
 
