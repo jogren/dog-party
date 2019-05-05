@@ -9,13 +9,12 @@
 ![Comp 1](/images/zen-garden-01.jpg)
 ![Comp 2](/images/zen-garden-02.jpg)
 
-### Find my finished Dog Party 1 screenshots below:
+### Find my finished Dog Party 1 screenshots below (Note: There are 2 screenshots for each site):
 
-![image](https://user-images.githubusercontent.com/19739235/57196526-f44c8880-6f1a-11e9-8300-61b63b003cce.png)
-![image](https://user-images.githubusercontent.com/19739235/57196564-5ad1a680-6f1b-11e9-8bf0-f5ac2fceabba.png)
+![image](https://user-images.githubusercontent.com/19739235/57197022-8ce50780-6f1f-11e9-8bde-56a6005d7f37.png)
+![image](https://user-images.githubusercontent.com/19739235/57197032-91a9bb80-6f1f-11e9-97c7-7ef97fa0f510.png)
 
 ### Dog Party 2 screenshots:
 
-![image](https://user-images.githubusercontent.com/19739235/57196605-adab5e00-6f1b-11e9-8aeb-2fd9060706c2.png)
-![image](https://user-images.githubusercontent.com/19739235/57196615-c3b91e80-6f1b-11e9-9982-d755cca96cfc.png)
-
+![image](https://user-images.githubusercontent.com/19739235/57197033-94a4ac00-6f1f-11e9-8f78-898372feeede.png)
+![image](https://user-images.githubusercontent.com/19739235/57197036-97070600-6f1f-11e9-968e-4df053cf8f8d.png)
