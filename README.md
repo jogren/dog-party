@@ -11,7 +11,11 @@
 
 ### Find my finished Dog Party 1 screenshots below:
 
-![My Dog Party 1](/images/Screen Shot 2019-05-05 at 9.37.05 AM)
-![My Dog Party 1](/images/Screen Shot 2019-05-05 at 9.37.34 AM)
+![image](https://user-images.githubusercontent.com/19739235/57196526-f44c8880-6f1a-11e9-8300-61b63b003cce.png)
+![image](https://user-images.githubusercontent.com/19739235/57196564-5ad1a680-6f1b-11e9-8bf0-f5ac2fceabba.png)
 
 ### Dog Party 2 screenshots:
+
+![image](https://user-images.githubusercontent.com/19739235/57196605-adab5e00-6f1b-11e9-8aeb-2fd9060706c2.png)
+![image](https://user-images.githubusercontent.com/19739235/57196615-c3b91e80-6f1b-11e9-9982-d755cca96cfc.png)
+
